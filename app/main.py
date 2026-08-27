@@ -13,6 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent
 DATA_FILE = BASE_DIR / "employees.json"
 DATA_LOCK = Lock()
 
+#MAIN APPLICATION FOR OPENAPI VERSION
 app = FastAPI(title="Employee Database API", version="1.0.0",openapi_version="3.0.3")
 
 
